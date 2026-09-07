@@ -14,7 +14,9 @@ The system can route conversations, retrieve relevant mental-health knowledge, p
 ---
 
 ## Architecture
+```
 ![AetherMed Architecture](images/architecture.png)
+```
 ---
 
 ## Key Features
