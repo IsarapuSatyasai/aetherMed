@@ -1,6 +1,4 @@
 Absolutely. Here is a **short, clean, GitHub-ready `README.md`** focused only on the important information for AetherMed.
-
-````markdown
 # AetherMed
 
 > AI-Powered Mental Health Support using Agentic AI
@@ -14,9 +12,9 @@ The system can route conversations, retrieve relevant mental-health knowledge, p
 ---
 
 ## Architecture
-```
+
 ![AetherMed Architecture](images/architecture.png)
-```
+
 ---
 
 ## Key Features
@@ -347,5 +345,3 @@ For real-world deployment, additional safety validation, clinical review, authen
 GitHub: Mention your Github link
 
 Repository: Mention Your Github repo link
-
-```
