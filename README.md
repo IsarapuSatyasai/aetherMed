@@ -1,13 +1,10 @@
-Absolutely. Here is a **short, clean, GitHub-ready `README.md`** focused only on the important information for AetherMed.
 # AetherMed
 
-> AI-Powered Mental Health Support using Agentic AI
+### Agentic AI-Powered Mental Health Support System
 
 AetherMed is an agentic AI application designed to provide supportive mental-health conversations using **LLMs, LangGraph, RAG, MCP tools, and a FastAPI backend**.
 
 The system can route conversations, retrieve relevant mental-health knowledge, provide wellness techniques, find local clinic information, and trigger an emergency notification workflow.
-
-> **Disclaimer:** AetherMed is an educational/prototype project and is not a replacement for professional medical or mental-health care.
 
 ---
 
@@ -100,8 +97,6 @@ aetherMed/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-├── pyproject.toml
-├── uv.lock
 └── README.md
 ```
 
