@@ -1,0 +1,39 @@
+# Web Framework & Server
+fastapi
+uvicorn
+
+# Configuration & Data Validation
+pydantic
+pydantic-settings
+
+# Database & ORM
+sqlalchemy
+psycopg2-binary
+
+# Agent Orchestration & Observability (LangChain ecosystem)
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+langchain-chroma
+langgraph
+langsmith
+
+# Model Context Protocol (MCP)
+mcp
+
+# Vector Database
+chromadb
+
+# External APIs & Integrations
+twilio
+openai
+
+# Data Processing
+pandas
+datasets
+
+# Frontend UI
+streamlit
+requests
