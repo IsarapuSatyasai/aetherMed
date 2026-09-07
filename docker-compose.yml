@@ -26,7 +26,7 @@ services:
     volumes:
       - ./data:/app/data
       - ./backend:/app/backend
-    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+    command: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     depends_on:
       - db
     restart: unless-stopped
@@ -43,7 +43,7 @@ services:
     volumes:
       - ./frontend:/app/frontend
       - ./data:/app/data
-    command: streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0
+    command: streamlit run frontend/app.py --server.address 0.0.0.0 --server.port $PORT
     depends_on:
       - backend
     restart: unless-stopped
